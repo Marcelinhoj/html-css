@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vídes com HTML5</title>
+    <title>Vídeos com HTML5</title>
 </head>
-<body>
-    <h1>Inserindo videos hospedados localmente</h1>
+<body>Inserindo vídeos hospedados localmente</h1>
     <p>Este vídeo está hospedado no meu próprio servidor.</p>
 
-    <video src="midia/meu-video.m4v" width="500" controls></video>
+    <video width="500" poster="imagens/chuva1.png" controls>
+        <source src="midia/meu-video.mp4.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v.m4v" type="video/m4v">
+        <source src="midia/meu-video.webm.webm" type="video/webm">
+        <p>Seu navegador nao tem compatibilidade com reprodução de videos.</p>
     
-     
+    </video>
 
-        
-  
+    
 </body>
 </html>
