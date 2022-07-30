@@ -18,7 +18,7 @@ main {
 h1 {
     color:#025E73 ;
     text-align: center;
-    text-shadow: 1px 1px 1px rgb(148, 128, 128);
+    text-shadow: 1px 1px 1px black;
 }
 h2 {
     color:#011F26 ;
