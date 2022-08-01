@@ -2,20 +2,19 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
-    
+    height: 100%;    
     }
 body {
-    background-image: linear-gradient(#7e67bd, #2a1c7a, #320436);
+    background-image: linear-gradient(blue, #3e3f9b, #686494);
 }
 main {
-    background-color: rgb(188, 195, 233);
+    background-color: black;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px black;
-    width: 1500px;
+    box-shadow: 5px 5px 15px rgb(228, 219, 219);
+    width: 550px;
     padding: 20px;
     margin: 100px;
 }
 h1 {
-    color:rgb(17, 85, 141) ;
+    color:white ;
 }
