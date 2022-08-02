@@ -6,7 +6,8 @@
     height: 100%;    
     }
 body {
-    background-image: linear-gradient(blue, #3e3f9b, #686494);
+    background-image: linear-gradient(to bottom , rgba(0, 0, 255, 0.863), #3e3f9b, #686494);
+    background-attachment: fixed;
 }
 main {
     background-color: black;
