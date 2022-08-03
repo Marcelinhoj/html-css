@@ -1,6 +1,8 @@
 @charset "UTF-8"
 
+
 *{
+    
     font-family: Arial, Helvetica, sans-serif;
     
     height: 100%;    
@@ -8,15 +10,25 @@
 body {
     background-image: linear-gradient(to bottom , rgba(0, 0, 255, 0.863), #3e3f9b, #686494);
     background-attachment: fixed;
+  
 }
 main {
     background-color: black;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(228, 219, 219);
-    width: 550px;
+    width: 800px;
     padding: 20px;
     margin: 100px;
 }
 h1 {
     color:white ;
+    text-align: center;
+}
+.destaque{
+  
+    color: red;
+    font-size: 3em;
+    box-shadow: 5px 5px 15px rgb(78, 75, 75);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
 }
