@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-pr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration:none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color:black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+       .especial::after{
+            content: '⇦';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(100, 98, 98);
+        }
+       .especial::before{
+            content: '⇨';
+            color: rgb(100, 98, 98);
+            font-weight: normal;
+        }
+        .especial{
+            background-color: rgba(0, 0, 255, 0.171);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalisando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Marcelinhoj" target="_blank" class="especial">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Canal do YouTube</a></li>
+        <li><a href="http://www.cursoemvideo.com" target="_blank">Site do Curso em Video</a></li>
+    </ul>
+</body>
+</html>
