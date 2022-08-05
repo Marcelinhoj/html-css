@@ -12,17 +12,28 @@ body {
     background-attachment: fixed;
   
 }
-main {
+header {
     background-color: black;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(228, 219, 219);
     width: 800px;
+    height: 140px;
     padding: 20px;
-    margin: 100px;
+    margin: auto;
 }
 h1 {
     color:white ;
     text-align: center;
+}
+li:hover{
+    color: red;
+
+}
+main{
+    border: 5px;
+    border-style:solid;
+    height: 200px;
+    width: 284px;
 }
 .destaque{
   
