@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body{
     background-color: #83e1ad ;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 header {
     color: white;
@@ -14,13 +14,14 @@ header > h1{
 header>p{
     text-align: center;
 }
-nav{
+header > nav{
     
-    color: white;
+    color: rgb(255, 255, 255);
   
 }
 nav:hover{
     background-color: #2fa866;
+    
 }
  
 
