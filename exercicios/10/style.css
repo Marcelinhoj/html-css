@@ -13,14 +13,15 @@ header > h1{
 }
 header>p{
     text-align: center;
+}a {
+    color: white;
 }
-header > nav{
-    
-    color: rgb(255, 255, 255);
+
   
-}
-nav:hover{
+
+a:hover{
     background-color: #2fa866;
+    
     
 }
  
@@ -62,7 +63,7 @@ aside > ul{
     column-width: auto;
     column-count: 2;
 }
-ul:hover{
+li:hover{
     color: rgb(24, 11, 202);
 
 }
