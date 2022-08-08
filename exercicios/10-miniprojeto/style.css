@@ -5,7 +5,8 @@ body{
 }
 header {
     color: white;
-    background-image: linear-gradient( #2fa866, #063d1e);  
+    background-image: linear-gradient( #2fa866, #063d1e);
+    border-radius: 5px;  
 
 }
 header > h1{
@@ -34,6 +35,8 @@ color: black;
 padding: 40px;
 margin: auto;
 border: 10px;
+width: 800px;
+
 
 }
 
