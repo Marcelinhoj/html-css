@@ -16,8 +16,8 @@ header {
     background-color: rgba(0, 0, 0, 0.747);
     border-radius: 10px;
     box-shadow: 5px 8px 7px 3px rgba(0, 0, 0, 0.555);
-    width: 800px;
-    height: 140px;
+    max-width: 800px;
+    min-height: 140px;
     padding: 20px;
     margin: auto;
     border: 15px white;
@@ -34,8 +34,8 @@ li:hover{
 main{
     border: 5px;
     border-style:solid;
-    height: 200px;
-    width: 284px;
+    min-height: 200px;
+    max-width: 284px;
 }
 .destaque{
   
@@ -44,4 +44,5 @@ main{
     
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 900;
+    box-shadow: 5 px 5px 5px white;
 }
