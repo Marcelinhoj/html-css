@@ -18,7 +18,7 @@ header {
     box-shadow: 5px 8px 7px 3px rgba(0, 0, 0, 0.555);
     max-width: 800px;
     min-height: 140px;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
     border: 15px white;
     margin: auto;
@@ -32,7 +32,7 @@ li:hover{
 
 }
 main{
-    border: 5px;
+    border: 6px;
     border-style:solid;
     min-height: 200px;
     max-width: 284px;
