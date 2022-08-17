@@ -29,6 +29,7 @@ h1 {
 }
 li:hover{
     color: red;
+    text-decoration: underline;
 
 }
 main{
@@ -43,6 +44,7 @@ main{
     font-size: 3em;
     
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 900;
+    font-weight: bolder;
     box-shadow: 5 px 5px 5px white;
+  
 }
