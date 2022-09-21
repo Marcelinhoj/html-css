@@ -26,11 +26,24 @@
             padding: 8px;
         }
 
+        col.cnome, col.cprof {
+            background-color: chartreuse;
+        }
+
+        col.cgrupo {
+            background-color: yellow;
+        }
+
     </style>
 </head>
 <body>
     <h1>Exercícios de Tabelas</h1>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
         <tr>
         <caption>Cadastro</caption>
         <th scope="col">Nome</th>
