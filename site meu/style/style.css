@@ -34,7 +34,7 @@ li:hover{
 }
 
 nav {
-    background-color: rgb(8, 8, 20);
+    background-color: rgba(8, 8, 20, 0.603);
     color: white;
     padding: 10px
 
