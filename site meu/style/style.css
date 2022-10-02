@@ -57,6 +57,6 @@ main{
     
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
-    box-shadow: 5 px 5px 5px white;
+    text-shadow: 5px 5px 5px 4px white;
   
 }
