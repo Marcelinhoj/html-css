@@ -37,7 +37,8 @@ main{
     border-style:solid;
     min-height: 200px;
     max-width: 284px;
-    font
+    font-size: 1.3em;
+    padding: 10px;
 }
 .destaque{
   
